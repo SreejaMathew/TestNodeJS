@@ -1,0 +1,22 @@
+{
+  "name": "TestNodeJS",
+  "version": "0.1.0",
+  "description": "TestNodeJS",
+  "main": "nodeFirst.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified! Configure in package.json\" && exit 1"
+  },
+  "repository": "",
+  "keywords": [
+    "node.js",
+    "eclipse",
+    "nodeclipse"
+  ],
+  "author": "",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "grunt": "^1.0.3",
+    "gulp": "^3.9.1"
+  }
+}
