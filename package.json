@@ -4,7 +4,9 @@
   "description": "TestNodeJS",
   "main": "nodeFirst.js",
   "scripts": {
-    "test": "echo \"Error: no test specified! Configure in package.json\" && exit 1"
+    "test": "echo \"Error: no test specified! Configure in package.json\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": "",
   "keywords": [
@@ -17,6 +19,8 @@
   "readmeFilename": "README.md",
   "dependencies": {
     "grunt": "^1.0.3",
-    "gulp": "^3.9.1"
-  }
+    "gulp": "^3.9.1",
+    "snyk": "^1.189.0"
+  },
+  "snyk": true
 }
